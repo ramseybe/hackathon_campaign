@@ -30,7 +30,7 @@ for key, val in thing.items():
 def checkbox_container(data):
     st.subheader('Check the important issues to you:')
     for i in data:
-        st.checkbox(i, key='dynamic_checkbox_' + i)
+        st.checkbox(i.replace("_"," "), key='dynamic_checkbox_' + i)
 
 def get_selected_checkboxes():
     return [i.replace('dynamic_checkbox_','') for i in st.session_state.keys() if i.startswith('dynamic_checkbox_') and st.session_state[i]]
