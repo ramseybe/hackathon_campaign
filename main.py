@@ -11,7 +11,7 @@ checked=[]
 party=''
 st.set_page_config(layout="wide")
 DATA_URL='https://raw.githubusercontent.com/ramseybe/hackathon_campaign/main/50_toss_up1.csv'
-st.header("Election Equality", )
+st.header("Political Tinder", )
 left_column, right_column = st.columns([3,5])
 
 @st.cache
