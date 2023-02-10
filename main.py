@@ -9,7 +9,9 @@ import numpy as np
 issues=["abortion","gun_control", "climate_change", "gender_identity", "pro_marijuana", "capital_punishment", "fracking", "defense_spending", "immigration", "net_neutrality"]
 checked=[]
 party=''
-st.set_page_config(layout="wide")
+st.set_page_config(,
+    page_icon="📈",
+    layout="wide",)
 DATA_URL='https://raw.githubusercontent.com/ramseybe/hackathon_campaign/main/50_toss_up1.csv'
 st.header("Political Tinder", )
 left_column, right_column = st.columns([3,5])
