@@ -104,7 +104,7 @@ if st.button('Submit'):
 
                 else:
                     
-                    image = Image.open(f'https://github.com/ramseybe/hackathon_campaign/tree/main/can_pics/{t}.jpeg')
+                    image = Image.open(f'ramseybe/hackathon_campaign/main/can_pics/{t}.jpeg')
                     st.subheader(t.title()+', '+ party)
                     st.subheader(row['district'])
                     st.image(image)
