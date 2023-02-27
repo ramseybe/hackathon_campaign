@@ -103,7 +103,7 @@ if st.button('Submit'):
                     st.image(image)
 
                 else:
-                    image = Image.open(f'./hackathon_campaign/can_pics/{t}.jpeg')
+                    image = Image.open(f'/hackathon_campaign/can_pics/{t}.jpeg')
                     st.subheader(t.title()+', '+ party)
                     st.subheader(row['district'])
                     st.image(image)
