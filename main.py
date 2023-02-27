@@ -9,7 +9,7 @@ from os import walk
 f = []
 for (dirpath, dirnames, filenames) in walk(mypath):
     f.extend(filenames)
-    break
+
 st.header(filenames)
 
 # checkBoxes={"abortion":False,"gun_control":False,"climate_change":False,"gender_identity":False,"pro_marijuana":False,"capital_punishment":False,"fracking":False,"defense_spending":False,"immigration":False,"net_neutrality":False}
