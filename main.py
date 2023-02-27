@@ -4,13 +4,7 @@ from PIL import Image
 import streamlit as st
 import pandas as pd
 import numpy as np
-from os import walk
 
-f = []
-for (dirpath, dirnames, filenames) in walk(mypath):
-    f.extend(filenames)
-
-st.header(filenames)
 
 # checkBoxes={"abortion":False,"gun_control":False,"climate_change":False,"gender_identity":False,"pro_marijuana":False,"capital_punishment":False,"fracking":False,"defense_spending":False,"immigration":False,"net_neutrality":False}
 issues=["abortion","gun_control", "climate_change", "gender_identity", "pro_marijuana", "capital_punishment", "fracking", "defense_spending", "immigration", "net_neutrality"]
