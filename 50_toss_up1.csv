@@ -1,4 +1,4 @@
-,district,name,percent,party,abortion,gun_control,climate_change,gender_identity,pro_marijuana,captial_punishment,fracking,defense_spending,immigration,net_neutrality
+index,district,name,percent,party,abortion,gun_control,climate_change,gender_identity,pro_marijuana,captial_punishment,fracking,defense_spending,immigration,net_neutrality
 0,NH-1,Leavitt,51.0,R,1,0,0,1,1,1,0,1,0,0
 1,NH-1,Pappas,49.0,D,0,1,1,1,1,1,1,1,0,1
 2,PA-17,Shaffer,51.0,R,0,1,1,0,1,1,1,0,1,1
